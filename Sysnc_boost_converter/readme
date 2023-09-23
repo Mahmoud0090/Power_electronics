@@ -1,0 +1,2 @@
+Synchronous boost converter that step up 12 v to 24 v with a duty cycle 0.5 , we use a deadTime block to drive the two driver, the deadtime ensure that there is a deadtime to avoid switching on the two
+transistor and shorting out the voltage source , also we use what is called bootstrap capacitor to drive the sysnc FET.
